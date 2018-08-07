@@ -48,9 +48,9 @@ public class MainDemo {
 		AmazonPage.addToCart(driver).click();
 
 		page.getCheckOut().click();
-		page.getuName().sendKeys("9640178686");
+		page.getuName().sendKeys("9963038344");
 		page.getContinueButton().click();
-		page.getPassword().sendKeys("saisree@169");
+		page.getPassword().sendKeys("bhuvijayerra@gmail.com");
 		page.getLoginButton().click();
 		
 		AmazonPage.addAddress(driver).click();
