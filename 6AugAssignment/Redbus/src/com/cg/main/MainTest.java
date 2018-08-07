@@ -49,17 +49,17 @@ public class MainTest {
 				.click();
 		Thread.sleep(2000);
 		WebElement name = driver.findElement(By.xpath("//*[@id=\"seatno-04\"]"));
-		name.sendKeys("Thummala Raswini");
+		name.sendKeys("Yerra Bhuvija Priya");
 		name.sendKeys(Keys.ENTER);
 
 		driver.findElement(By.xpath("//*[@id=\"23_0\"]")).click();
 		driver.findElement(By.xpath("//*[@id=\"seatno-01\"]")).sendKeys("21");
 		Thread.sleep(2000);
 		WebElement email = driver.findElement(By.xpath("//*[@id=\"seatno-05\"]"));
-		email.sendKeys("raswinireddy@gmail.com");
+		email.sendKeys("bhuvijayerra@gmail.com");
 		email.sendKeys(Keys.ENTER);
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("//*[@id=\"seatno-06\"]")).sendKeys("8019413949");
+		driver.findElement(By.xpath("//*[@id=\"seatno-06\"]")).sendKeys("9963038344");
 		driver.findElement(By.xpath("//*[@id=\"root\"]/div/div[4]/div/div/div[2]/div[2]/input")).click();
 	}
 }
